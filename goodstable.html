@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Список покупок</title>
+		
+		<meta charset="utf-8">
+		<style>
+			td, th {
+				border: 1px solid black;
+			}
+		</style>
+	</head>
+	<body>
+		<table style="width:100%">
+			<caption><h3>Список покупок</h3></caption>
+			<thead>
+			<tr>
+				<th>Раздел</th>
+				<th>Наименование</th>
+				<th>Цена</th>
+				<th>Количество</th>
+				<th>Сумма</th>
+			</tr>
+			</thead>
+			
+			<tr>
+				<td rowspan="2">Овощи и фрукты</td>
+				<td>Огурцы</td>
+				<td>50/кг</td>
+				<td>1 кг</td>
+				<td>50</td>
+			</tr>
+			<tr>
+				<td>Помидоры</td>
+				<td>80/кг</td>
+				<td>1.5 кг</td>
+				<td>120</td>
+			</tr>
+			<tr>
+				<td rowspan="2">Молочные продукты</td>
+				<td>Молоко</td>
+				<td>100/уп</td>
+				<td>2 шт</td>
+				<td>200</td>
+			</tr>
+			<tr>
+				<td>Кефир</td>
+				<td>110/уп</td>
+				<td>1 шт</td>
+				<td>110</td>
+			</tr>
+			
+			<tfoot>
+			<tr>
+				<td colspan="4">Итого:</td>
+				<td>480</td>
+			</tr>
+			</tfoot>
+		</table>
+	</body>
+</html>

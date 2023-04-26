@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Заказ пиццы</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<form method="get" action="#">
+			<fieldset>
+			<legend>Соберите свою пиццу!</legend>
+				Выберите размер:
+				<br>
+				<input type="radio" name="pizzasize" value="23">
+				23 см
+				<input type="radio" name="pizzasize" value="30">
+				30 см
+				<input type="radio" name="pizzasize" value="35">
+				35 см
+				<input type="radio" name="pizzasize" value="40">
+				40 см
+				<br>
+				<br>
+				Выберите начинку:
+				<br>
+				<label>
+					<input type="checkbox" name="mozzarella" value="1">
+					Сыр моцарелла
+				</label>
+				<br>
+				<label>
+					<input type="checkbox" name="pepperoni" value="1">
+					Пепперони
+				</label>
+				<br>
+				<label>
+					<input type="checkbox" name="mushroom" value="1">
+					Шампиньоны
+				</label>
+				<br>
+				<label>
+					<input type="checkbox" name="chedder" value="1">
+					Сыр чеддер
+				</label>
+				<br>
+				<label>
+					<input type="checkbox" name="ham" value="1">
+					Ветчина
+				</label>
+				<br>
+				<label>
+					<input type="checkbox" name="bacon" value="1">
+					Бекон
+				</label>
+				<br>
+				<label>
+					<input type="checkbox" name="tomato" value="1">
+					Томаты
+				</label>
+				<br>
+				<label>
+					<input type="checkbox" name="olive" value="1">
+					Оливки
+				</label>
+				<br>
+				<br>
+				<select name="dough">
+				<option selected disabled>Выберите тесто</option>
+				<option>Традиционное</option>
+				<option>Тонкое</option>
+				</select>
+				<br>
+				<br>
+				Дайте своей пицце название:
+				<br>
+				<input type="text" name="pizzaname">
+				<br>
+				<br>
+				Заказать пиццу:
+				<br>
+				<button>
+				<img src="pizzabutton.jpg" alt="" style="width:200px">
+				</button>
+			</fieldset>
+	</body>
+</html>
