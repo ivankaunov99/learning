@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Загадки</title>
+		
+		<meta charset="utf-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<style>
+			button {
+				display: block;
+				margin: 100px auto;
+				width: 200px;
+				height: 50px;
+				font: bold 24px Arial;
+				color: green;
+				text-transform: uppercase;
+			}
+			form {
+				display: block;
+				font: bold 16px Arial;
+			}
+		</style>
+		
+		<script src="riddles.js"></script>
+	
+	</head>
+	
+	<body>
+		<form>
+		<label>Какая игрушка стреляет как пушка?</label>
+		</br>
+		<input type="text" id="hlopushka">
+		</br>
+		</br>
+		<label>Красное коромысло над рекою повисло.</label>
+		</br>
+		<input type="text" id="rainbow">
+		</br>
+		</br>
+		<label>Сидит девица в темнице, а коса - на улице.</label>
+		</br>
+		<input type="text" id="carrot">
+		</form>
+		<button type="button" onclick="game();">Дать ответ</button>
+	</body>
+</html>
