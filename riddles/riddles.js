@@ -15,5 +15,5 @@ function game()
 		count++;
 	}
 	
-	alert(`Верных ответов дано: ${count}`);
+	document.getElementById('result').textContent = `Верных ответов дано: ${count}`;
 }
