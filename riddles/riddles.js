@@ -15,5 +15,11 @@ function game()
 		count++;
 	}
 	
-	document.getElementById('result').textContent = `Верных ответов дано: ${count}`;
+	changeText('result', `Верных ответов дано: ${count}`);
+}
+
+function changeText(elementID, text)
+{
+	document.getElementById(elementID).textContent = text;
+	return;
 }
