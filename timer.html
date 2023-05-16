@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>JavaScript</title>
+        
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script>
+            let count;
+			let date;
+            function func(command) {
+                if (command == 'start')
+				{
+				date = new Date();
+				}
+                
+                if (command == 'stop')
+				{
+				let millisec = ((new Date()) - date);
+				document.getElementById('result').textContent = `Прошло времени: ${millisec / 1000} секунд`;
+				}
+                
+            }
+        </script>
+    </head>
+    
+    <body>
+        <button type="button" onclick="func('start')">START</button>
+        
+        <button type="button" onclick="func('stop')">STOP</button>
+		
+		<p id="result"></p>
+    </body>
+</html>
