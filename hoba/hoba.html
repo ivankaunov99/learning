@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Заглавная страница</title>
+        
+        <meta charset="utf-8">
+        
+        <link rel="stylesheet" href="hoba.css">
+		
+		<script src="jquery.js"></script>
+		
+		<script>
+		$( document ).ready(function(){
+		$( ".turnoff" ).click(function(){ // задаем функцию при нажатиии на элемент с классом out
+		$( ".pic" ).fadeOut(); // плавно изменяя прозрачность скрываем все элементы <div>
+		});
+		$( ".turnon" ).click(function(){ // задаем функцию при нажатиии на элемент с классом in
+		$( ".pic" ).fadeIn(); // плавно изменяя прозрачность отображаем все элементы <div>
+		});
+		});
+		</script>
+		
+    </head>
+    
+    <body>
+		<button type = "button" class="turnon">Хоба?</button>
+		<button type = "button" class="turnoff">Не хоба?</button>
+		<img src="hoba.png" alt="Хоба" id="hobapicture" class="pic">
+    </body>
+</html>

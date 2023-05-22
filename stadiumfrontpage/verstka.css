@@ -171,6 +171,7 @@ footer button::before {
 	height:43px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	line-height: 43px;
 }
 .thirddiv {
 	margin: 0px;
@@ -186,6 +187,7 @@ footer button::before {
 	height:22px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	line-height: 26.68px;
 }
 .spacediv {
 	margin: 0px;
