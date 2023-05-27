@@ -188,7 +188,6 @@ footer button::before {
 	margin-right: auto;
 	width: 1110px;
 	height: 681px;
-	background: yellow;
 	margin-top: 100px;
 }
 .project-title{
@@ -196,29 +195,53 @@ footer button::before {
 	margin-right: auto;
 	height: 43px;
 	width: 506px;
-	background: pink;
 	font-weight: 500;
 	line-height: 53px;
 	font-size: 36px;
 	text-align: center;
+	color: #404149
 }
 .project-items{
-	background: green;
 	margin-top: 60px;
 	height: 578px;
 	width: 1110px;
 }
 .project-item{
-	background: orange;
 	display: inline-block;
 	float: left;
 	height: 578px;
 	width: 350px;
 }
 .space-item{
-	background: grey;
 	display: inline-block;
 	float: left;
 	height: 578px;
 	width: 30px;
+}
+.project-div {
+	height: 380px;
+	width: 350px;
+}
+.stadium-photo{
+	height: 380px;
+	width: 350px;
+}
+.project-div2 {
+	height: 29px;
+	width: 350px;
+	margin-top: 66px;
+	font-weight: 500;
+	color: #404149;
+	line-height: 36px;
+	font-size: 24px;
+}
+.project-div3 {
+	height: 83px;
+	width: 350px;
+	margin-top: 20px;
+	font-weight: 400;
+	color: #999999;
+	line-height: 22px;
+	font-size: 16px;
+	font-family: 'opensans';
 }
