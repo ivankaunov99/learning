@@ -111,6 +111,7 @@ function btn_memory(point) {
         if (memory !== null) {
             render(memory);
         }
+		screenemptyflag = true;
         break;
         case 'M+':
         if (actionsign) {
