@@ -1,0 +1,220 @@
+/* fonts */
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/Roboto-Light.ttf');
+    font-weight: 300;
+}
+
+/* global reset */
+html, body, body div, div, span, h1, h2, h3, h4, h5, h6, p, a, em, img, small, strike, strong, sub, sup, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, aside, section, article, header, footer, main, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+    box-sizing: content-box;
+}
+ol, ul, li {
+    list-style: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+input, textarea {
+    font: inherit;
+    box-sizing: border-box;
+}
+
+/* main */
+body {
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: rgba(31,63,104,.6);
+    position: relative;
+    min-width: 375px;
+}
+header {
+	background: green;
+    position: absolute;
+    top: 30px;
+    width: 1140px;
+    height: 48px;
+    left: 50%;
+    margin-left: -570px;
+}
+footer {
+    color: #fff;
+    background: #316099;
+}
+section {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* header */
+header a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.logo {
+    left: 0;
+    width: 46px;
+}
+.contacts {
+	padding-top: 5px;
+    right: 0;
+    width: 34px;
+}
+
+/* footer */
+footer section {
+    padding: 64px 0;
+}
+.f_wrap {
+    border-top: 1px solid rgba(255,255,255,.4);
+}
+footer ul {
+    display: flex;
+    justify-content: space-between;
+}
+footer li {
+    list-style-type: upper-latin;
+    list-style-position: inside;
+    flex: none;
+    width: 350px;
+}
+footer li span {
+    margin-left: 25px;
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+}
+.copy {
+    margin: 64px 0 0;
+    opacity: 0.4;
+}
+
+/* content */
+.m_wrap {
+    height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 0%, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+.m_top {
+    padding-top: 190px;
+    background: url('../images/big_image.png') right 190px no-repeat;
+    height: 492px;
+}
+h1 {
+    width: 510px;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+	color: #1F3F68;
+}
+.m_top > div {
+    width: 425px;
+}
+.m_top button {
+    font-family: 'roboto';
+}
+#map {
+    height: 480px;
+    width: 940px;
+    margin: 100px auto;
+}
+
+
+.toptext {
+	font-weight: 400;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0.05em;
+	text-align: left;
+	margin-top: 32px;
+}
+.topbutton{
+	height: 56px;
+	width: 220px;
+	border-radius: 10px;
+	background: #5A98D0;
+	margin-top: 86px;
+	color: white;
+}
+
+/* adaptivity */
+@media screen and (max-width:1199px) { /* экран поменьше */
+    header {
+        width: 700px;
+        margin-left: -350px;
+		background: yellow;
+    }
+    section {
+        width: 700px;
+    }
+    footer section {
+        width: 520px;
+    }
+    footer ul {
+        display: block;
+    }
+    footer li {
+        width: 100%;
+    }
+    footer li span {
+        width: auto;
+        margin-left: 40px;
+    }
+    footer li + li {
+        margin-top: 20px;
+    }
+    #map {
+        width: 100%;
+        max-width: 940px;
+        margin: 64px auto;
+        height: 392px;
+    }
+}
+@media screen and (max-width:729px) { /* ваще маленький экран жесть */
+    header {
+        width: auto;
+        margin-left: 0;
+        left: 16px;
+        right: 16px;
+        top: 16px;
+		background: red;
+    }
+    section {
+        width: auto;
+        margin: 0 16px;
+    }
+    footer section {
+        width: auto;
+        padding: 32px 0;
+    }
+    footer ul {
+        padding-left: 20px;
+    }
+    footer li {
+        list-style-position: outside;
+    }
+    footer li span {
+        margin-left: 20px;
+    }
+    #map {
+        height: 350px;
+        margin: 32px auto;
+    }
+}
