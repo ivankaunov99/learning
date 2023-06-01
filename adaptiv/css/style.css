@@ -173,7 +173,6 @@ h1 {
 	width: 100%;
 	height: 480px;
 	margin-top: 64px;
-	background: teal;
 	justify-content: space-between;
 }
 .whatwedoelement{
@@ -181,6 +180,7 @@ h1 {
 	height: 480px;
 	margin-top: 0px;
 	background: white;
+	box-shadow: 5px 20px 50px 0px #1070B133;
 }
 .whatwedopic1 {
 	height: 122px;
@@ -188,8 +188,220 @@ h1 {
 	background: url('../images/whatwedo1.png') top no-repeat;
 	display: block; 
 	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 44px;
 }
-
+.whatwedopic2 {
+	height: 122px;
+	width: 183px;
+	background: url('../images/whatwedo2.png') top no-repeat;
+	display: block; 
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 44px;
+}
+.whatwedopic3 {
+	height: 122px;
+	width: 183px;
+	background: url('../images/whatwedo3.png') top no-repeat;
+	display: block; 
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 44px;
+}
+.whatwedostring1 {
+	height: 55px;
+	width: 283px;
+	border-radius: nullpx;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0.05em;
+	text-align: left;
+	color: #1F3F68;
+	margin-top: 52px;
+	margin-left: 32px;
+}
+.whatwedostring2 {
+	height: 94px;
+	width: 268px;
+	border-radius: nullpx;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0.05em;
+	text-align: left;
+	color: #1F3F68;
+	opacity: 60%;
+	margin-top: 14px;
+	margin-left: 32px;
+}
+.whatwedostring3 {
+	display: flex;
+	align-items: center;
+	height: 27px;
+	width: 160px;
+	border-radius: nullpx;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0.05em;
+	text-align: left;
+	color: #5A98D0;
+	margin-top: 30px;
+	margin-left: 32px;
+}
+.arrowforward {
+	display: inline-block;
+	height: 23px;
+	width: 23px;
+	background: url('../images/arrowforward.png') bottom no-repeat;
+	margin-left: 20px;
+}
+.inlineblock{
+	display: inline-block;
+}
+.ofptext1 {
+	height: 46px;
+	width: 1140px;
+	border-radius: nullpx;
+	font-family: Roboto;
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 46px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	color: #000000;
+	margin-top: 64px;
+}
+.ofptext2 {
+	width: 750px;
+	height: 52px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #222222;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 32px;
+}
+.ofpcontainer {
+	margin-top: 64px;
+}
+.ofppic1 {
+	display: inline-block;
+	height: 480px;
+	width: 1140px;
+	background: url('../images/offpic1.png') bottom no-repeat;
+}
+.ofppic2 {
+	display: inline-block;
+	height: 417px;
+	width: 554px;
+	background: url('../images/offpic2.png') bottom no-repeat;
+	margin-top: 32px;
+}
+.ofppic3 {
+	display: inline-block;
+	height: 417px;
+	width: 554px;
+	background: url('../images/offpic3.png') bottom no-repeat;
+	margin-top: 32px;
+	float: right
+}
+.offpictext {
+	display: inline-block;
+	float: right;
+	font-family: Roboto;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 46px;
+	letter-spacing: 0.05em;
+	text-align: right;
+	color: #FFFFFF;
+	margin-top: 64px;
+	margin-right: 64px;
+}
+.offpictext2 {
+	display: inline-block;
+	float: left;
+	font-family: Roboto;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 46px;
+	letter-spacing: 0.05em;
+	text-align: right;
+	color: #FFFFFF;
+	margin-top: 32px;
+	margin-left: 32px;
+}
+.footertexts {
+	display: inline-block;
+	margin-top: 91px;
+	margin-left: 113px;
+	width: 495px;
+	margin-top: 91px;
+	margin-left: 113px;
+}
+.footertext1 {
+	display: inline-block;
+	height: 92px;
+	width: 340px;
+	margin-bottom: 32px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 46px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+}
+.footertext2 {
+	display: inline-block;
+	width: 495px;
+	height: 80px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	opacity: 0.6;
+}
+.footerbutton {
+	display: inline-block;
+	float: right;
+	margin-top: 165px;
+	margin-right: 115px;
+	width: 237px;
+	height: 56px;
+	background: #5A98D0;
+}
+.footerbuttontext {
+	width: 76.37px;
+	height: 26px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+	margin-top: 15px;
+	margin-left: 80px;
+}
 
 
 /* adaptivity */
