@@ -347,11 +347,9 @@ h1 {
 }
 .footertexts {
 	display: inline-block;
-	margin-top: 91px;
+	margin-top: 27px;
 	margin-left: 113px;
 	width: 495px;
-	margin-top: 91px;
-	margin-left: 113px;
 }
 .footertext1 {
 	display: inline-block;
@@ -382,7 +380,7 @@ h1 {
 .footerbutton {
 	display: inline-block;
 	float: right;
-	margin-top: 165px;
+	margin-top: 101px;
 	margin-right: 115px;
 	width: 237px;
 	height: 56px;
