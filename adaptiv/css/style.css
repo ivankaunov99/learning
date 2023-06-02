@@ -43,7 +43,6 @@ body {
     min-width: 375px;
 }
 header {
-	background: green;
     position: absolute;
     top: 30px;
     width: 1140px;
@@ -303,6 +302,7 @@ h1 {
 	height: 480px;
 	width: 1140px;
 	background: url('../images/offpic1.png') bottom no-repeat;
+	
 }
 .ofppic2 {
 	display: inline-block;
@@ -528,6 +528,9 @@ h1 {
 	footer section {
 		width: 620px;
 	}
+	.topbutton {
+		font-size: 16px;
+	}
 	
 }
 @media screen and (max-width:729px) { /* ваще маленький экран жесть */
@@ -559,4 +562,130 @@ h1 {
         height: 350px;
         margin: 32px auto;
     }
+	
+	.m_top {
+		background: none;
+	}
+	.topbutton {
+		display: block;
+		width: 108px;
+		height: 27px;
+		font-size: 16px;
+		line-height: 26px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+	}
+	.toptext {
+		width: 343px;
+		height: 96px;
+		font-size: 16px;
+		line-height: 26px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	h1 {
+		width: 320px;
+		height: 76px;
+		font-size: 32px;
+		line-height: 38px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.m_wrap {
+		height: 376px;
+	}
+	.m_top {
+		padding-top: 90px;
+	}
+	.ofptext2 {
+		width: 343px;
+		margin-bottom: 82px;
+	}
+	.ofppic1 {
+		display: block;
+		height: 145px;
+		width: 343px;
+		background: url('../images/offpic1.png') no-repeat;
+		background-size: contain;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.ofppic2 {
+		display: block;
+		height: 255px;
+		width: 343px;
+		background: url('../images/offpic2.png') no-repeat;
+		background-size: contain;
+		margin-top: 16px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.ofppic3 {
+		display: block;
+		height: 255px;
+		width: 343px;
+		background: url('../images/offpic3.png') no-repeat;
+		background-size: contain;
+		margin-top: 16px;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+	}
+	.ofpcontainer {
+		height: 700px;
+	}
+	.offpictext {
+		display: inline-block;
+		float: right;
+		font-size: 16px;
+		line-height: 19px;
+		text-align: right;
+		margin-top: 16px;
+		margin-right: 16px;
+	}
+	.offpictext2 {
+		display: inline-block;
+		float: left;
+		font-size: 18px;
+		line-height: 46px;
+		text-align: right;
+		margin-top: 26px;
+		margin-left: 16px;
+	}
+	.footertexts {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	.footerbutton {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		float: none;
+		margin-top: 50px;
+		width: 108px;
+		height: 31px;
+	}
+	.footerbuttontext {
+		display: block;
+		width: 108px;
+		height: 31px;
+		margin-left: auto;
+		margin-right: auto;
+		font-family: Roboto;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 26px;
+		letter-spacing: 0.04em;
+		text-align: center;
+		margin-top: 0px;
+		padding-top: 5px;
+	}
+	
 }
