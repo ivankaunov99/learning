@@ -741,6 +741,28 @@ h1 {
 		font-size: 16px;
 	}
 	
+	
+	.contactustext2 {
+		width: 520px;
+	}
+	.addresses {
+		display: block;
+		float: left;
+		clear: right;
+		margin-left: 0px;
+	}
+	.messageform {
+		display: block;
+		float: left;
+		clear: right;
+		margin-left: 0px;
+	}
+	.addressandform {
+		flex-direction: column;
+		height: auto;
+		align-items: center;
+	}
+	
 }
 @media screen and (max-width:729px) { /* ваще маленький экран жесть */
     header {
@@ -749,6 +771,7 @@ h1 {
         left: 16px;
         right: 16px;
         top: 16px;
+		background: red;
     }
     section {
         width: auto;
@@ -897,4 +920,46 @@ h1 {
 		padding-top: 5px;
 	}
 	
+	.messageform{
+		width: auto;
+		margin-left: 16px;
+		margin-right: 16px;
+	}
+	.contactustext1 {
+		padding-top: 48px;
+		font-size: 24px;
+	}
+	.contactustext2 {
+		width: 341px;
+		font-size: 16px;
+	}
+	.largeformtext {
+		font-size: 16px;
+	}
+	.formtext {
+		font-size: 14px;
+	}
+	.largeinput {
+		font-size: 14px;
+		width: 271px;
+		height: 93px;
+	}
+	.smallinput {
+		font-size: 14px;
+		width: 271px;
+		height: 46px;
+	}
+	.largeinput::placeholder {
+		font-size: 14px;
+	}
+	.smallinput::placeholder {
+		font-size: 14px;
+	}
+	.submitbutton {
+		width: 271px;
+		height: 46px;
+	}
+	.submitbuttontext {
+		font-size: 16px;
+	}
 }
