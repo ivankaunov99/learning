@@ -615,7 +615,6 @@ h1 {
     header {
         width: 700px;
         margin-left: -350px;
-		background: yellow;
     }
     section {
         width: 700px;
@@ -771,7 +770,6 @@ h1 {
         left: 16px;
         right: 16px;
         top: 16px;
-		background: red;
     }
     section {
         width: auto;
